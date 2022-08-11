@@ -304,12 +304,13 @@ def computerTurn(gameBoard):
  
                 # If the value of the current move is
                 # more than the best value, then update
-                # best/
+                # best
                 if (moveVal > bestVal) :               
                     bestMove = (i, j)
                     bestVal = moveVal
 
     return bestMove
+
 
 def startPVP(): #start player vs player(pvp)
     running = True
