@@ -304,13 +304,12 @@ def computerTurn(gameBoard):
  
                 # If the value of the current move is
                 # more than the best value, then update
-                # best
+                # best/
                 if (moveVal > bestVal) :               
                     bestMove = (i, j)
                     bestVal = moveVal
 
     return bestMove
-
 
 def startPVP(): #start player vs player(pvp)
     running = True
@@ -328,8 +327,6 @@ def startPVP(): #start player vs player(pvp)
             if event.type == pygame.QUIT:
                 running = False
                 pygame.quit()
-                exit()
-
 pygame.font.init()
 my_font = pygame.font.SysFont('arial', int(size/20))
 my_font2 = pygame.font.SysFont('arial', int(size/30))
@@ -363,8 +360,6 @@ def startScreen():
             if event.type == pygame.QUIT:
                 running = False
                 pygame.quit()
-                exit()
-
 
 def startCVP(userTurn):#start computer vs player(cvp)
     global opponent 
@@ -400,8 +395,6 @@ def startCVP(userTurn):#start computer vs player(cvp)
             if event.type == pygame.QUIT:
                 running = False
                 pygame.quit()
-                exit()
-
 
 startScreen()
 
