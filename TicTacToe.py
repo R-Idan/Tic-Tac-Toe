@@ -28,6 +28,7 @@ hasDraw =False
 x_img = pygame.image.load("Ximg.svg")
 y_img = pygame.image.load("Oimg.svg")
   
+  
 # resizing images
 x_img = pygame.transform.scale(x_img, (size/3, size/3))
 o_img = pygame.transform.scale(y_img, (size/3, size/3))
