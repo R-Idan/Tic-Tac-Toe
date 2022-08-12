@@ -9,9 +9,6 @@ size = height
 if(height>width):
     size=width
 size=size/1.5
-
-
-
 screen = pygame.display.set_mode((size,size))
 turn =0
 rows, cols = (3, 3)
