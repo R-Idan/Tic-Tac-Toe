@@ -2,7 +2,6 @@ import time
 import pygame
 pygame.init()
 
-fps =30
 width, height = pygame.display.Info().current_w, pygame.display.Info().current_h
 size = height
 
